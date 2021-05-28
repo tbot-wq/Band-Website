@@ -1,0 +1,223 @@
+@media screen and (max-width:1202px){
+nav ul{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#client{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+}
+@media screen and (max-width:604px) {
+    .images img{
+height: 300px;
+width: 300px;
+    }
+    
+}
+@media screen and (max-width:604px){
+    #tour form input{
+        height: 30px;
+        width: 70px;
+    }
+#home img{
+    height: 300px;
+    width: 600px;
+}
+}
+@media screen and (max-width:402px){
+    #s{
+        height: 30px;
+        width: 150px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:246px){
+    #s{
+        height: 30px;
+        width: 100px;
+    }
+}
+
+
+
+body{
+    background-image: url('Img/Img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+    margin-top: 7px;
+}
+nav ul li a:hover{
+   font-weight: bold;
+}
+
+header{
+    color: white;
+    background-color: black;
+    top: 0;
+    position: sticky;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul input{
+    height: 30px;
+    width: 300px;
+}
+.h1{
+    text-align: center;
+    margin-top: 30px;
+}
+#client{
+    display: flex;
+    margin-top: 30px;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+#client img{
+    height: 200px;
+    width: 200px;
+    padding:20px 100px;
+}
+#client img:hover{
+height: 250px;
+width: 300px;
+}
+.search{
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: red;
+    cursor: pointer;
+}
+.search:hover{
+    background-color: rgb(204, 36, 36);
+}
+#s{
+    margin: 15px 30px 20px 100px;
+    padding: 5px 5px 5px 20px;
+   border-radius: 10px;
+   
+}
+#article{
+ text-align: center;
+}
+nav ul{
+    display: flex;
+
+   
+}
+.images{
+    margin-top: 100px;
+    background-image: url('https://source.unsplash.com/1600x500/?random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blue;
+   
+}
+.btn1{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn1 a{
+    text-decoration: none;
+}
+.img2{
+    margin-top: 50px;
+}
+footer{
+    margin-top: 70px;
+    background-color: black;
+color: white;
+
+}
+footer p{
+    text-align: center;
+}
+#tour{
+    margin-top: 100px;
+    display: flex;
+    color: gray;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#r{
+    margin-top: 10px;
+    padding: 20px 150px;
+}
+#ss{
+    padding: 20px 150px;
+}
+#tour form{
+    margin-top: 30px;
+   
+}
+
+#tour form input{
+    /* height: 40px;
+    width: 200px; */
+    padding:20px 230px;
+    text-align: center;
+    color: red;
+    
+}
+.for{
+  margin-bottom: 30px;
+}
+.img3{
+    margin-top: 50px;
+}
+.img1{
+    margin-top: 30px;
+}
+#h{
+    margin-top: 50px;
+    text-align: center;
+}
+nav ul li a{
+    padding: 25px 40px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+
+    
+}
+#band{
+    overflow: scroll;
+}
+nav ul li{
+    display: flex;
+    list-style: none;
+    color: white;
+  
+    
+    
+   
+}
