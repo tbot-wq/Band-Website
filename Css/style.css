@@ -117,7 +117,7 @@ width: 300px;
 #article{
  text-align: center;
 }
-html{
+body{
     scroll-behavior:smooth,
 }
 nav ul{
