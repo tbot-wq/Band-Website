@@ -46,11 +46,11 @@ width: 300px;
 
 
 
-body{
+/*body{
     background-image: url('Img/Img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-}
+}*/
 
 .icon{
     height: 60px;
@@ -117,9 +117,7 @@ width: 300px;
 #article{
  text-align: center;
 }
-body{
-    scroll-behavior:smooth,
-}
+
 nav ul{
     display: flex;
 
